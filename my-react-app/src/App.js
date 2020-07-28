@@ -1,6 +1,7 @@
 import React, { Component, Text, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import MidLanding from './landing.js';
+import AboutMe from '.about-me.js';
 import './App.scss';
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
         {/* <NavBar></NavBar> */}
         <Switch>
           <Route exact path='/' component={(props) => <MidLanding {...props} isColorPageTheme={isColorPageTheme} />} />
+          <Route exact path='/about-me' component={(props) => <AboutMe {...props} isColorPageTheme={isColorPageTheme} />} />
         </Switch>
       </Router>
     );
