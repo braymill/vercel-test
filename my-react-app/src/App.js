@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Text, useState } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import MidLanding from './landing.js';
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      color: false
+    }
+  }
+
+  getPageTheme = (color) => {
+    if (color) {
+      return {
+        background: '#D1EAFF'
+      }
+    } else {
+      return {
+        background: '#FFF'
+      }
+    }
+  }
+  render() {
+    let pageStyle = { backgroundColor: '#D1EAFF' };
+    let isColorPageTheme = this.state.color;
+
+    return (
+      <Router style={pageStyle}>
+        {/* <NavBar></NavBar> */}
+        <Switch>
+          <Route exact path='/' component={(props) => <MidLanding {...props} isColorPageTheme={isColorPageTheme} />} />
+        </Switch>
+      </Router>
+    );
+  }
 }
 
 export default App;
