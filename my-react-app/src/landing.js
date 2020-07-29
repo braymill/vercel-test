@@ -11,7 +11,7 @@ import logo from "./newlogo2.png";
 class MidLanding extends Component {
   render() {
     let commonStyle = { width: '100%', height: '100vh', backgroundColor: '#D1EAFF' };
-    let buttonStyle = { marginTop: 7.5, marginBottom: 7.5, marginLeft: 10, marginRight: 10, };
+    let buttonStyle = { marginTop: 7.5, marginBottom: 7.5, marginLeft: 10, marginRight: 10 };
     return (
       <div style={commonStyle}>
           <head>
@@ -65,7 +65,7 @@ class MidLanding extends Component {
                 <br/>
                 
                 <div class='flex-container'>
-                    <section class='typewriter'>
+                    <section class='typewriter' className='flex-container' style={{flex: 1}}>
                         <div className='about-me-section'>
                             <div className='flex-container' style={{justifyContent: 'center'}}>
                                 <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Learn More About Me</h3>
@@ -75,9 +75,9 @@ class MidLanding extends Component {
                             </div>
                             <br/>
                         <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                            <Button variant="outline-custom" style={buttonStyle} href="/about-me">&nbsp;ABOUT ME&nbsp;</Button>
-                            <Button variant="outline-custom" style={buttonStyle} href="/projects">&nbsp;PROJECTS&nbsp;</Button>
-                            <Button variant="custom" style={buttonStyle} href="">&nbsp;&nbsp;RESUME&nbsp;&nbsp;</Button>
+                            <Button className="btn-1" style={buttonStyle} href="/about-me">About Me</Button>
+                            <Button className="btn-1" style={buttonStyle} href="/projects">Projects</Button>
+                            <Button className="btn-2" style={buttonStyle} href="">&nbsp;Resume&nbsp;</Button>
                         </div>
                         
                         
@@ -87,7 +87,7 @@ class MidLanding extends Component {
                             <img src={blueline} width="100%" height="25px" margin="auto"></img>
                         </div> */}
                     </section>
-                    <section class='content'>
+                    <section class='content' className='flex-container' style={{flex: 1}}>
                         <div className='about-me-section'>
                         <div className='flex-container' style={{justifyContent: 'center'}}>
                             <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, textAlign: 'center' }}>Connect With Me</h3>

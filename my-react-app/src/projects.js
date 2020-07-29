@@ -36,7 +36,7 @@ class Projects extends Component {
           </h2>
           <br/>
           <div class='flex-container'>
-            <section class='typewriter'>
+            <section class='typewriter' className='flex-container' style={{flex: 1}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
                   <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>SubleaseUT</h3>
@@ -53,7 +53,7 @@ class Projects extends Component {
                 </div>
               </div>
             </section>
-            <section class='content'>
+            <section class='content' className='flex-container' style={{flex: 1}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                   <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Sportune</h3>
@@ -71,7 +71,7 @@ class Projects extends Component {
               </div>
             </section>
           </div>
-          <div class='flex-container'>
+          <div class='flex-container' className='flex-container' style={{flex: 1}}>
             <section class='typewriter'>
               <div class='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
@@ -89,7 +89,7 @@ class Projects extends Component {
                 </div>
               </div>
             </section>
-            <section class='content'>
+            <section class='content' className='flex-container' style={{flex: 1}}>
               <div class='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
                   <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Competitive Programming</h3>

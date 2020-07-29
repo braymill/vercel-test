@@ -98,11 +98,13 @@ main {
 .typewriter {
   background: #D1EAFF;
   flex: 1;
+  height: 100%;
 }
 
 .content {
   background: #D1EAFF;
   flex: 1;
+  height: 100%;
 }
 
 .about-me-section{
@@ -110,12 +112,7 @@ main {
   border-radius: 33px;
   padding: 10px 20px;
   flex: 1;
-}
-
-.about-me-actual-section{
-  background: #FBFBFF;
-  border-radius: 33px;
-  padding: 10px 20px;
+  height: 100%;
 }
 
 @media screen and (min-width: 640px){
