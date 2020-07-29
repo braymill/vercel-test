@@ -6,6 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+.redText{
+  color: #c84d55;
+}
+
 h3 {
   font-family: 'Philosopher', sans-serif;
   -webkit-font-smoothing: antialiased;
