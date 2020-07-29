@@ -75,9 +75,9 @@ class MidLanding extends Component {
                             </div>
                             <br/>
                         <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                            <Button className="btn-1" style={buttonStyle} href="/about-me">About Me</Button>
-                            <Button className="btn-1" style={buttonStyle} href="/projects">Projects</Button>
-                            <Button className="btn-2" style={buttonStyle} href="">&nbsp;Resume&nbsp;</Button>
+                            <Button className="btn-1" style={buttonStyle} href="/about-me"><b>ABOUT ME</b></Button>
+                            <Button className="btn-1" style={buttonStyle} href="/projects"><b>PROJECTS</b></Button>
+                            <Button className="btn-2" style={buttonStyle} href=""><b>&nbsp;RESUME&nbsp;</b></Button>
                         </div>
                         
                         
