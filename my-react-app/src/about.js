@@ -66,6 +66,9 @@ class About extends Component {
                         &nbsp;&nbsp;<span style={{color: '#225ebe'}}>interests: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"American politics"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"investing"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"competitive programming"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"board games"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"poker"</span><span style={{color: '#000'}}>,</span></span> <span style={{color: '#d4692b'}}>"Korean dramas"</span><span style={{color: '#044A85'}}>]</span>                   
                     </h2>
                     <h2 style={{fontSize: '1.75rem'}}>
+                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>fun-fact: </span><span style={{color: '#d4692b'}}>"My twin sister and I have different birthdays!"</span>
+                    </h2>
+                    <h2 style={{fontSize: '1.75rem'}}>
                         }
                     </h2>
                     </section>
