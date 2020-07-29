@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Typewriter from 'typewriter-effect';
 import logo from "./newlogo2.png";
+import picture from './circle-cropped.png';
+import verticalpic from './Brayden.JPEG';
 
 class About extends Component {
   render() {
@@ -55,7 +57,7 @@ class About extends Component {
                         &nbsp;&nbsp;<span style={{color: '#225ebe'}}>coding: </span><span style={{color: '#044A85'}}>[Java<span style={{color: '#000'}}>,</span> C++<span style={{color: '#000'}}>,</span> C<span style={{color: '#000'}}>,</span> Python<span style={{color: '#000'}}>,</span> JavaScript<span style={{color: '#000'}}>,</span> HTML5<span style={{color: '#000'}}>,</span> CSS]</span>,
                     </h2>
                     <h2 style={{fontSize: 27}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React/React Native<span style={{color: '#000'}}>,</span> Node.js<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
+                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React.js<span style={{color: '#000'}}>,</span> Node.js<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
                     </h2>
                     <h2 style={{fontSize: 27}}>
                         &nbsp;&nbsp;<span style={{color: '#225ebe'}}>organizations: </span><span style={{color: '#044A85'}}>[Texas Product Engineering Organization<span style={{color: '#000'}}>,</span> Texas Undergraduate Investment Team<span style={{color: '#000'}}>,</span> Natural Sciences Council]</span>,
@@ -69,9 +71,9 @@ class About extends Component {
                     </section>
                 </section>
                 <section class='content' style={{flex: 1}}>
-                    <section class='about-me-section'>
-                        
-                    </section>
+                        <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                            <img src={verticalpic} width='100%' height='auto'></img>
+                        </div>
                 </section>
             </div>
             
