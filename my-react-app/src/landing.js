@@ -20,7 +20,7 @@ class MidLanding extends Component {
                 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
             />
          </head>
-        <div class="header">
+        <div class="header" width='100vw' style={{backgroundColor: '#767779'}}>
             <a href="/"><img src={logo} width='60px' height='80px'></img></a>
             <div class="header-left">
                 <a href='/'><h1 style={{ fontSize: 30, letterSpacing: 3, color: '#ddd' }}><b>BRAYDEN MILLER • SOFTWARE DEVELOPER @ UT AUSTIN</b></h1></a>
@@ -42,9 +42,15 @@ class MidLanding extends Component {
                 <section class='typewriter'>
                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center'}}>
                     <div style={{textAlign: 'center', justifyContent: 'center'}}>
-                        <h1 style={{fontSize: 45, color: '#044A85', fontWeight: 1000, textAlign: 'center', margin: 'auto'}}>
-                            Hello, my name is Brayden Miller!
-                        </h1>
+                        <h4 style={{fontSize: 60, color: '#044A85', fontWeight: 1000, textAlign: 'center', margin: 'auto'}}>
+                                    <Typewriter
+                                        onInit={(typewriter) => {
+                                            typewriter.changeDelay(50);
+                                            typewriter.typeString('Hello, my name is Brayden Miller!')
+                                            typewriter.start();
+                                        }}        
+                                        />
+                        </h4>
                         <h2 style={{fontSize: 45, textAlign: 'center', margin: 'auto'}}>
                             <Typewriter
                                 options={{
@@ -71,7 +77,7 @@ class MidLanding extends Component {
                                 <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Learn More About Me</h4>
                             </div>
                             <div className='flex-container' >
-                                <h3 style={{ fontSize: 22, textAlign: 'center' }}>I am a CS and Math student at UT Austin passionate about merging my interests in software, mathematics, and finance! I love to work on something new each and every day and am thrilled with solving challenging problems.</h3>
+                                <h3 style={{ fontSize: 22, textAlign: 'center' }}>As an interdisciplinary software developer and student, I am deeply passionate in merging my interests for computer science, mathematics, and finance in areas like full-stack software engineering, quantitative finance, and data science. I am always excited to take on new challenges and continue growing as a developer! </h3>
                             </div>
                             <br/>
                         <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
@@ -87,7 +93,7 @@ class MidLanding extends Component {
                             <img src={blueline} width="100%" height="25px" margin="auto"></img>
                         </div> */}
                     </section>
-                    <section class='content' className='flex-container' style={{flex: 1}}>
+                    {/* <section class='content' className='flex-container' style={{flex: 1}}>
                         <div className='about-me-section'>
                         <div className='flex-container' style={{justifyContent: 'center'}}>
                             <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, textAlign: 'center' }}>Connect With Me</h4>
@@ -109,7 +115,7 @@ class MidLanding extends Component {
                         </div>
                         <br/>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
                 
                 </section>

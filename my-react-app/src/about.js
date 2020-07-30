@@ -4,6 +4,7 @@ import logo from "./newlogo2.png";
 import picture from './circle-cropped.png';
 import verticalpic from './Brayden.JPEG';
 import Button from "react-bootstrap/Button";
+import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 class About extends Component {
   render() {
@@ -39,10 +40,10 @@ class About extends Component {
                         </h4>
                     </div>
                     <br/>
-                    <div className='about-me-code'>
+                    <div>
                         <div className='flex-container'>
                             <h2 style={{fontSize: 27}}>
-                            <Typewriter
+                                    <Typewriter
                                         onInit={(typewriter) => {
                                             typewriter.changeDelay(75);
                                             typewriter.typeString('<span class="redText">const</span> brayden = {')
@@ -91,6 +92,15 @@ class About extends Component {
                                 </div>
                                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center', marginTop: 15}}>
                                     <Button className="btn-2" style={buttonStyle} href=""><b>&nbsp;RESUME&nbsp;</b></Button>
+                                    <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://www.linkedin.com/in/braymill/" size="60" />
+                                    </span>
+                                    <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://github.com/braymill" size="60" />
+                                    </span>
+                                    <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="mailto:brayden.miller@utexas.edu" size="60" />
+                                    </span>
                                 </div>
                             </section>
                         </div>
