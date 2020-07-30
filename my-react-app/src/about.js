@@ -93,7 +93,7 @@ class About extends Component {
                                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center', marginTop: 15}}>
                                     <Button className="btn-2" style={buttonStyle} href=""><b>&nbsp;RESUME&nbsp;</b></Button>
                                     <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
-                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://www.linkedin.com/in/braymill/" size="60" />
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://www.linkedin.com/in/braydenmmiller/" size="60" />
                                     </span>
                                     <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
                                         <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://github.com/braymill" size="60" />

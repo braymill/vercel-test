@@ -2,7 +2,6 @@ import React, { Component, Text, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import MidLanding from './landing.js';
 import Projects from './projects.js';
-import AboutMe from './about-me.js';
 import About from './about.js';
 import './App.scss';
 
