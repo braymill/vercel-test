@@ -39,7 +39,7 @@ class Projects extends Component {
             <section class='typewriter' className='flex-container' style={{flex: 1}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>SubleaseUT</h3>
+                  <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>SubleaseUT</h4>
                 </div>
                 <div>
                     <h3 style={{ fontSize: 22, textAlign: 'center' }}>Full-stack web platform for UT students to find and offer subleases for apartment units, parking spots, and more in the Austin area! (Code available upon email request)</h3>
@@ -56,7 +56,7 @@ class Projects extends Component {
             <section class='content' className='flex-container' style={{flex: 1}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                  <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Sportune</h3>
+                  <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Sportune</h4>
                 </div>
                 <div className='flex-container'>
                     <h3 style={{ fontSize: 22, textAlign: 'center' }}>Naive data science project aiming to accurately assign fair salaries to NBA players based on player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
@@ -75,7 +75,7 @@ class Projects extends Component {
             <section class='typewriter'>
               <div class='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Personal Website</h3>
+                  <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Personal Website</h4>
                 </div>
                 <div className='flex-container' >
                     <h3 style={{ fontSize: 22, textAlign: 'center' }}>Multi-page web application built to showcase my background and experience as a software engineer.</h3>
@@ -92,7 +92,7 @@ class Projects extends Component {
             <section class='content' className='flex-container' style={{flex: 1}}>
               <div class='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Competitive Programming</h3>
+                  <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Competitive Programming</h4>
                 </div>
                 <div className='flex-container' >
                     <h3 style={{ fontSize: 22, textAlign: 'center' }}>Repository of the various advanced programming problems I've solved from sponsored competitions.</h3>

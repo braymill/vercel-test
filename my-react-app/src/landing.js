@@ -49,7 +49,7 @@ class MidLanding extends Component {
                             <Typewriter
                                 options={{
                                 pauseFor: 1000,
-                                strings: ['programmer', 'software engineer', 'student'],
+                                strings: ['Programmer', 'Software Engineer', 'Student'],
                                 autoStart: true,
                                 loop: true,
                                 deleteSpeed: 40,
@@ -68,7 +68,7 @@ class MidLanding extends Component {
                     <section class='typewriter' className='flex-container' style={{flex: 1}}>
                         <div className='about-me-section'>
                             <div className='flex-container' style={{justifyContent: 'center'}}>
-                                <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, justifyContent: 'center', textAlign: 'center' }}>Learn More About Me</h3>
+                                <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Learn More About Me</h4>
                             </div>
                             <div className='flex-container' >
                                 <h3 style={{ fontSize: 22, textAlign: 'center' }}>I am a CS and Math student at UT Austin passionate about merging my interests in software, mathematics, and finance! I love to work on something new each and every day and am thrilled with solving challenging problems.</h3>
@@ -90,7 +90,7 @@ class MidLanding extends Component {
                     <section class='content' className='flex-container' style={{flex: 1}}>
                         <div className='about-me-section'>
                         <div className='flex-container' style={{justifyContent: 'center'}}>
-                            <h3 style={{ marginBottom: 18, fontSize: 40, fontWeight: 70, textAlign: 'center' }}>Connect With Me</h3>
+                            <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, textAlign: 'center' }}>Connect With Me</h4>
                         </div>
                         <div className='flex-container' style={{justifyContent: 'center'}}>
                             <h3 style={{ fontSize: 22, textAlign: 'center' }}>I'm always excited to take on new challenges and grow as a developer in areas like full-stack software engineering, quantitative finance, financial technology, or data science. Please feel free to reach out at any time!</h3>
