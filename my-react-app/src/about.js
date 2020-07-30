@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Typewriter from 'typewriter-effect';
 import logo from "./newlogo2.png";
-import picture from './circle-cropped.png';
-import verticalpic from './Brayden.JPEG';
+import picture from './images/circle-cropped.png';
+import verticalpic from './images/Brayden.JPEG';
 import Button from "react-bootstrap/Button";
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 

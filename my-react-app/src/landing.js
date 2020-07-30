@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from "react-bootstrap/Button";
 import {SocialMediaIconsReact} from 'social-media-icons-react';
-import headshot from './headshot-outline.jpg'
+import headshot from './images/headshot-outline.jpg'
 import Typewriter from 'typewriter-effect';
 import { Component } from "react";
 import logo from "./newlogo2.png";
