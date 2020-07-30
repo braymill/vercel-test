@@ -39,39 +39,41 @@ class About extends Component {
                         </h4>
                     </div>
                     <br/>
-                    <div className='flex-container'>
+                    <div>
+                        <div className='flex-container'>
+                            <h2 style={{fontSize: '3.0vw'}}>
+                            <Typewriter
+                                        onInit={(typewriter) => {
+                                            typewriter.changeDelay(75);
+                                            typewriter.typeString('<span class="redText">const</span> brayden = {')
+                                            typewriter.start();
+                                        }}        
+                                        />
+                            </h2>
+                        </div>
                         <h2 style={{fontSize: '1.75rem'}}>
-                        <Typewriter
-                                    onInit={(typewriter) => {
-                                        typewriter.changeDelay(75);
-                                        typewriter.typeString('<span class="redText">const</span> brayden = {')
-                                        typewriter.start();
-                                    }}        
-                                    />
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>pronouns: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"he"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"him"</span>]</span>,
                         </h2>
-                        <br/>
+                        <h2 style={{fontSize: '1.75rem'}}>
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>coding: </span><span style={{color: '#044A85'}}>[Java<span style={{color: '#000'}}>,</span> C++<span style={{color: '#000'}}>,</span> C<span style={{color: '#000'}}>,</span> Python<span style={{color: '#000'}}>,</span> JavaScript<span style={{color: '#000'}}>,</span> HTML5<span style={{color: '#000'}}>,</span> CSS<span style={{color: '#000'}}>,</span> SCSS]</span>,
+                        </h2>
+                        <h2 style={{fontSize: '1.75rem'}}>
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React.js<span style={{color: '#000'}}>,</span> Node.js<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
+                        </h2>
+                        <h2 style={{fontSize: '1.75rem'}}>
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>organizations: </span><span style={{color: '#044A85'}}>[Texas Product Engineering Organization<span style={{color: '#000'}}>,</span> Texas Undergraduate Investment Team<span style={{color: '#000'}}>,</span> Natural Sciences Council]</span>,
+                        </h2>
+                        <h2 style={{fontSize: '1.75rem'}}>
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>interests: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"American politics"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"investing"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"competitive programming"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"board games"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"poker"</span><span style={{color: '#000'}}>,</span></span> <span style={{color: '#d4692b'}}>"Korean dramas"</span><span style={{color: '#044A85'}}>]</span>                   
+                        </h2>
+                        <h2 style={{fontSize: '1.75rem'}}>
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>fun-fact: </span><span style={{color: '#d4692b'}}>"My twin sister and I have different birthdays!"</span>
+                        </h2>
+                        <h2 style={{fontSize: '1.75rem'}}>
+                            }
+                        </h2>
                     </div>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>pronouns: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"he"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"him"</span>]</span>,
-                    </h2>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>coding: </span><span style={{color: '#044A85'}}>[Java<span style={{color: '#000'}}>,</span> C++<span style={{color: '#000'}}>,</span> C<span style={{color: '#000'}}>,</span> Python<span style={{color: '#000'}}>,</span> JavaScript<span style={{color: '#000'}}>,</span> HTML5<span style={{color: '#000'}}>,</span> CSS<span style={{color: '#000'}}>,</span> SCSS]</span>,
-                    </h2>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React.js<span style={{color: '#000'}}>,</span> Node.js<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
-                    </h2>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>organizations: </span><span style={{color: '#044A85'}}>[Texas Product Engineering Organization<span style={{color: '#000'}}>,</span> Texas Undergraduate Investment Team<span style={{color: '#000'}}>,</span> Natural Sciences Council]</span>,
-                    </h2>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>interests: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"American politics"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"investing"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"competitive programming"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"board games"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"poker"</span><span style={{color: '#000'}}>,</span></span> <span style={{color: '#d4692b'}}>"Korean dramas"</span><span style={{color: '#044A85'}}>]</span>                   
-                    </h2>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        &nbsp;&nbsp;<span style={{color: '#225ebe'}}>fun-fact: </span><span style={{color: '#d4692b'}}>"My twin sister and I have different birthdays!"</span>
-                    </h2>
-                    <h2 style={{fontSize: '1.75rem'}}>
-                        }
-                    </h2>
+                    
                     </section>
                 </section>
                 <section class='content' className='flex-container' style={{flex: 1}}>
