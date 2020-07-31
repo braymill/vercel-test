@@ -88,6 +88,14 @@ main, section, aside, footer {
   .about-me-code{
     font-size: 27;
   }
+
+  .about-me-head{
+    font-size: 45;
+  }
+
+  .about-me-desc{
+    font-size: 22;
+  }
 }
 
 main {
@@ -121,6 +129,14 @@ main {
 
   .about-me-code{
     font-size: 2vw;
+  }
+
+  .about-me-desc{
+    font-size: 1.75vw;
+  }
+
+  .about-me-head{
+    font-size: 2.25vw;
   }
 }
 

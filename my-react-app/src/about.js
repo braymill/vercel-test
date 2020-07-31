@@ -85,10 +85,10 @@ class About extends Component {
                                 </div>
                                 <br/>
                                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center'}}>
-                                    <h4 style={{fontWeight: 700, fontSize: 40, marginTop: 10}}>Software Developer and Student based in Austin, TX</h4>
+                                    <h4 style={{fontSize: 40, fontWeight: 700, marginTop: 10}}>Software Developer and Student based in Austin, TX</h4>
                                 </div>
                                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center'}}>
-                                    <h3 style={{fontSize: 22, marginTop: 10}}>My dream is to wake up every day and work on something new that changes the world. I continue to strive to become the best version of myself by taking risks, asking questions, and working passionately!</h3>
+                                    <h3 className='about-me-desc' style={{marginTop: 10}}>My dream is to wake up every day and work on something new that changes the world. I continue to strive to become the best version of myself by taking risks, asking questions, and working passionately!</h3>
                                 </div>
                                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center', marginTop: 15}}>
                                     <Button className="btn-2" style={buttonStyle} href=""><b>&nbsp;RESUME&nbsp;</b></Button>
