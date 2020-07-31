@@ -42,7 +42,7 @@ class About extends Component {
                     <br/>
                     <div>
                         <div className='flex-container'>
-                            <h2 style={{fontSize: 27}}>
+                            <h2 className='about-me-code'>
                                     <Typewriter
                                         onInit={(typewriter) => {
                                             typewriter.changeDelay(75);
@@ -52,25 +52,25 @@ class About extends Component {
                                         />
                             </h2>
                         </div>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>pronouns: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"he"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"him"</span>]</span>,
                         </h2>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>coding: </span><span style={{color: '#044A85'}}>[Java<span style={{color: '#000'}}>,</span> C++<span style={{color: '#000'}}>,</span> C<span style={{color: '#000'}}>,</span> Python<span style={{color: '#000'}}>,</span> JavaScript<span style={{color: '#000'}}>,</span> HTML5<span style={{color: '#000'}}>,</span> CSS<span style={{color: '#000'}}>,</span> SCSS]</span>,
                         </h2>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React.js<span style={{color: '#000'}}>,</span> Node.js<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
                         </h2>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>organizations: </span><span style={{color: '#044A85'}}>[Texas Product Engineering Organization<span style={{color: '#000'}}>,</span> Texas Undergraduate Investment Team<span style={{color: '#000'}}>,</span> Natural Sciences Council]</span>,
                         </h2>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>interests: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"American politics"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"investing"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"competitive programming"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"board games"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"poker"</span><span style={{color: '#000'}}>,</span></span> <span style={{color: '#d4692b'}}>"Korean dramas"</span><span style={{color: '#044A85'}}>]</span>                   
                         </h2>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>fun-fact: </span><span style={{color: '#d4692b'}}>"My twin sister and I have different birthdays!"</span>
                         </h2>
-                        <h2 style={{fontSize: 27}}>
+                        <h2 className='about-me-code'>
                             }
                         </h2>
                     </div>
