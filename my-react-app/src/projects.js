@@ -46,10 +46,10 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div>
-                    <h3 style={{ fontSize: 22, textAlign: 'center' }}>Full-stack web platform for UT students to find and offer subleases for apartment units, parking spots, and more in the Austin area! Code in private repository is available upon email request.</h3>
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Full-stack web platform for UT students to find and offer subleases for apartment units, parking spots, and more in the Austin area! Code in private repository is available upon email request.</h3>
                 </div>
                 <div style={{justifyContent: 'center'}}>
-                  <h3 style={{ fontSize: 22, textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
+                  <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
                 </div>
               </div>
             </section>
@@ -63,10 +63,10 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container'>
-                    <h3 style={{ fontSize: 22, textAlign: 'center' }}>Beginner data science project aiming to accurately assign fair salaries to NBA players based on player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Beginner data science project aiming to accurately assign fair salaries to NBA players based on player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                  <h3 style={{ fontSize: 22, textAlign: 'center' }}><b>Technologies: Python (numpy, scikit-learn)</b></h3>
+                  <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Python (numpy, scikit-learn)</b></h3>
                 </div>
               </div>
             </section>
@@ -82,10 +82,10 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container' >
-                    <h3 style={{ fontSize: 22, textAlign: 'center' }}>Multi-page web application built to showcase my background and experience as a software engineer and student.</h3>
+                    <h3 className='about-me-desc' style={{  textAlign: 'center' }}>Multi-page web application built to showcase my background and experience as a software engineer and student.</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h3 style={{ fontSize: 22, textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, SCSS, JavaScript, Vercel, GitHub Pages</b></h3>
+                  <h3 className='about-me-desc' style={{  textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, SCSS, JavaScript, Vercel, GitHub Pages</b></h3>
                 </div>
               </div>
             </section>
@@ -99,10 +99,10 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container' >
-                    <h3 style={{ fontSize: 22, textAlign: 'center' }}>Repository of the various advanced programming problems I've solved from sponsored competitions (Codeforces, UTPC, LeetCode Weekly Contests, Google Kick Start).</h3>
+                    <h3 className='about-me-desc'  style={{ textAlign: 'center' }}>Repository of the various advanced programming problems I've solved from sponsored competitions (Codeforces, UTPC, LeetCode Weekly Contests, Google Kick Start).</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h3 style={{ fontSize: 22, textAlign: 'center' }}><b>Technologies: C++, Java, Python</b></h3>
+                  <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: C++, Java, Python</b></h3>
                 </div>
               </div>
             </section>
