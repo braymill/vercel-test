@@ -3,8 +3,20 @@ import {SocialMediaIconsReact} from 'social-media-icons-react';
 import Typewriter from 'typewriter-effect';
 import { Component } from "react";
 import logo from "./newlogo2.png";
+import ImageGallery from 'react-image-gallery';
+import sublease1 from "./images/sublease1.png";
 
-
+const images = [
+  {
+    original: 'https://picsum.photos/id/1018/1000/600/',
+  },
+  {
+    original: 'https://picsum.photos/id/1015/1000/600/',
+  },
+  {
+    original: 'https://picsum.photos/id/1019/1000/600/',
+  },
+];
 
 class Projects extends Component {
   render() {
