@@ -90,16 +90,15 @@ class About extends Component {
                                 <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center'}}>
                                     <h3 className='about-me-desc' style={{marginTop: 10}}>My dream is to wake up every day and work on something new that changes the world. I continue to strive to become the best version of myself by taking risks, asking questions, and working passionately!</h3>
                                 </div>
-                                <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center', marginTop: 15}}>
-                                    <Button className="btn-2" style={buttonStyle} href=""><b>&nbsp;RESUME&nbsp;</b></Button>
-                                    <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
-                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://www.linkedin.com/in/braydenmmiller/" size="60" />
+                                <div className='flex-container' style={{textAlign: 'center', justifyContent: 'center', marginTop: 23, marginBottom: 23}}>
+                                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://www.linkedin.com/in/braydenmmiller/" size="70" />
                                     </span>
-                                    <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
-                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://github.com/braymill" size="60" />
+                                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://github.com/braymill" size="70" />
                                     </span>
-                                    <span style={{marginLeft: 10, marginRight: 10, marginTop: 7.5}}>
-                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="mailto:brayden.miller@utexas.edu" size="60" />
+                                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="mailto:brayden.miller@utexas.edu" size="70" />
                                     </span>
                                 </div>
                             </section>

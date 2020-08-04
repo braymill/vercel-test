@@ -11,7 +11,7 @@ import logo from "./newlogo2.png";
 class MidLanding extends Component {
   render() {
     let commonStyle = { width: '100%', height: '100vh', backgroundColor: '#D1EAFF' };
-    let buttonStyle = { marginTop: 7.5, marginBottom: 7.5, marginLeft: 10, marginRight: 10 };
+    let buttonStyle = { marginTop: 7.5, marginBottom: 7.5, marginLeft: 20, marginRight: 20 };
     return (
       <div style={commonStyle}>
           <head>
@@ -83,7 +83,6 @@ class MidLanding extends Component {
                         <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                             <Button className="btn-1" style={buttonStyle} href="/about-me"><h4 className='about-me-desc' style={{fontWeight: 1000}}>ABOUT ME</h4></Button>
                             <Button className="btn-1" style={buttonStyle} href="/projects"><h4 className='about-me-desc' style={{fontWeight: 1000}}>PROJECTS</h4></Button>
-                            <Button className="btn-2" style={buttonStyle} href=""><b><h4 className='about-me-desc' style={{fontWeight: 1000}}>&nbsp;RESUME&nbsp;</h4></b></Button>
                         </div>
                         
                         
