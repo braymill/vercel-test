@@ -58,7 +58,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div>
-                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain housing and parking subleases. Code in private repository available upon email request.</h3>
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. Code in private repository available upon email request.</h3>
                 </div>
                 <div style={{justifyContent: 'center'}}>
                   <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
