@@ -58,7 +58,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div>
-                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Full-stack web platform for UT students to find and offer subleases for apartment units, parking spots, and more in the Austin area! Code in private repository is available upon email request.</h3>
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain housing and parking subleases. Code in private repository available upon email request.</h3>
                 </div>
                 <div style={{justifyContent: 'center'}}>
                   <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
@@ -75,7 +75,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container'>
-                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Beginner data science project aiming to accurately assign fair salaries to NBA players based on player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Statistical model that aims to accurately assign fair salaries to NBA players based on yearly player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                   <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Python (numpy, scikit-learn)</b></h3>
@@ -94,10 +94,10 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container' >
-                    <h3 className='about-me-desc' style={{  textAlign: 'center' }}>Multi-page web application built to showcase my background and experience as a software engineer and student.</h3>
+                    <h3 className='about-me-desc' style={{  textAlign: 'center' }}>Multi-page React web application built to showcase my background and experience as a software engineer and computer science student.</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h3 className='about-me-desc' style={{  textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, SCSS, JavaScript, Vercel, GitHub Pages</b></h3>
+                  <h3 className='about-me-desc' style={{  textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, SCSS, JavaScript, Vercel/GitHub Pages</b></h3>
                 </div>
               </div>
             </section>
