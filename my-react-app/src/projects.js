@@ -6,18 +6,6 @@ import logo from "./newlogo2.png";
 import ImageGallery from 'react-image-gallery';
 import sublease1 from "./images/sublease1.png";
 
-const images = [
-  {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-  },
-  {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-  },
-];
-
 class Projects extends Component {
   render() {
     let commonStyle = { width: '100%', height: '100vh', backgroundColor: '#D1EAFF' };
@@ -78,11 +66,12 @@ class Projects extends Component {
                     <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Statistical model that aims to accurately assign fair salaries to NBA players based on yearly player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                  <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Python (numpy, scikit-learn)</b></h3>
+                  <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Python (pandas, numpy, scikit-learn)</b></h3>
                 </div>
               </div>
             </section>
           </div>
+          <div></div>
           <div class='flex-container' className='flex-container' style={{flex: 1}}>
             <section class='typewriter' className='flex-container' style={{flex: 1}}>
               <div class='about-me-section'>
