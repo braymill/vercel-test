@@ -68,7 +68,7 @@ class About extends Component {
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>interests: </span><span style={{color: '#044A85'}}>[<span style={{color: '#d4692b'}}>"American politics"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"investing"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"competitive programming"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"board games"</span><span style={{color: '#000'}}>,</span> <span style={{color: '#d4692b'}}>"poker"</span><span style={{color: '#000'}}>,</span></span> <span style={{color: '#d4692b'}}>"Korean dramas"</span><span style={{color: '#044A85'}}><span style={{color: '#000'}}>,</span><span style={{color: '#d4692b'}}> "documentaries"</span>]</span>                   
                         </h2>
                         <h2 className='about-me-code'>
-                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>fun-fact: </span><span style={{color: '#d4692b'}}>"My twin sister and I have different birthdays!"</span>
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>fun-fact: </span><span style={{color: '#d4692b'}}>"My twin sibling and I have different birthdays!"</span>
                         </h2>
                         <h2 className='about-me-code'>
                             }
