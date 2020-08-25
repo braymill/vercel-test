@@ -5,6 +5,8 @@ import { Component } from "react";
 import logo from "./newlogo2.png";
 import ImageGallery from 'react-image-gallery';
 import sublease1 from "./images/sublease1.png";
+import sportune from "./images/sportune.png";
+import ModalImage from "react-modal-image";
 
 class Projects extends Component {
   render() {
@@ -46,8 +48,11 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div>
-                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. Code in private repository available upon email request.</h3>
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. Code in private repository available upon email request.</h3> 
+                    <br/>
+                    <img src={sublease1} width='100%' height='auto'></img> 
                 </div>
+                <br/>
                 <div style={{justifyContent: 'center'}}>
                   <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
                 </div>
@@ -63,7 +68,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container'>
-                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Statistical model that aims to accurately assign fair salaries to NBA players based on yearly player performance statistics. Completed as part of the Convergent Data Science Build Team.</h3>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Statistical model that aims to accurately assign fair salaries to NBA players based on yearly player performance statistics.</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                   <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Python (pandas, numpy, scikit-learn)</b></h3>
@@ -100,7 +105,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container' >
-                    <h3 className='about-me-desc'  style={{ textAlign: 'center' }}>Repository of the various advanced programming problems I've solved from sponsored competitions (Codeforces, UTPC, LeetCode Weekly Contests, Google Kick Start).</h3>
+                    <h3 className='about-me-desc'  style={{ textAlign: 'center' }}>Solving advanced programming and algorithm problems as quickly as possible! Repository of the problems I've solved from various competitions (Codeforces, UTPC, LeetCode Weekly Contests, Google Kick Start)</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
                   <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: C++, Java, Python</b></h3>
