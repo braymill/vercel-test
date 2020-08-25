@@ -38,7 +38,7 @@ class Projects extends Component {
           </h4>
           <br/>
           <div class='flex-container'>
-            <section class='typewriter' className='flex-container' style={{flex: 1}}>
+            <section class='typewriter' className='flex-container' style={{flex: 0.66}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
                   <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>SubleaseUT</h4>
@@ -58,7 +58,7 @@ class Projects extends Component {
                 </div>
               </div>
             </section>
-            <section class='content' className='flex-container' style={{flex: 1}}>
+            <section class='content' className='flex-container' style={{flex: 0.33}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                   <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Sportune</h4>
