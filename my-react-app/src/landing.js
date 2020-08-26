@@ -77,7 +77,7 @@ class MidLanding extends Component {
                                 <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Learn More About Me</h4>
                             </div>
                             <div className='flex-container' >
-                                <h3 className='about-me-desc' style={{ textAlign: 'center' }}>As an interdisciplinary software developer and student, I am deeply passionate in merging my interests for computer science, mathematics, and finance in areas like full-stack software engineering, quantitative finance, and data science. I am always excited to take on new challenges and continue growing as a developer! <b>Currently, I am seeking a software engineering internship for Summer 2021!</b></h3>
+                                <h3 className='about-me-desc' style={{ textAlign: 'center' }}>As an interdisciplinary software developer and sophomore at UT Austin, I am deeply passionate in merging my interests for computer science, mathematics, and finance in areas like full-stack software engineering, quantitative finance, financial technology, and data science. Always excited to take on new challenges, my continuous goal is personal growth and the expansion and sharpening of my skill set. <b>Currently, I am seeking a software engineering internship for Summer 2021!</b></h3>
                             </div>
                             <br/>
                         <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
