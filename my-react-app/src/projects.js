@@ -123,6 +123,26 @@ class Projects extends Component {
               </div>
             </section>
           </div>
+          <div class='flex-container' className='flex-container' style={{flex: 1}}>
+            <section class='typewriter' className='flex-container' style={{flex: 1}}>
+              <div className='about-me-section'>
+
+              <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Project @ PennApps XXI</h4>
+                  </div>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="web" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://2020f.pennapps.com/" size="60" />
+                  </div>
+                  <br/>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                      <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Coming soon... (I will be competing at PennApps XXI from September 11-13!)</h3>
+                  </div>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Coming soon...</b></h3>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
         
       </div>
