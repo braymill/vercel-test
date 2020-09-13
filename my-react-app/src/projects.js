@@ -37,6 +37,40 @@ class Projects extends Component {
                           />
           </h4>
           <br/>
+          <div class='flex-container' className='flex-container' style={{flex: 1}}>
+            <section class='typewriter' className='flex-container' style={{flex: 1}}>
+              <div className='about-me-section'>
+
+                <div style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <h4 style={{ marginBottom: 10, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>MAPIFY</h4>
+                    <h3 style={{textAlign: 'center'}}><i>Created during the PennApps XXI 2020 Hackathon!</i></h3>
+                  </div>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://github.com/ayushgarg-ag/PennApps2020" size="70" />
+                    </span>
+                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="web" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://devpost.com/software/mapify-wklmn6" size="70" />
+                    </span>
+                  </div>
+                  <br/>
+                  <div>
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>A beacon of knowledge for those looking to learn more about the world's geography and demography! MAPIFY provides information about countries and cultures around the world along with states in the U.S. by leveraging the power of Wolfram|Alpha, all while using a map visualizer to bolster users' knowledge of global geography!</h3> 
+                  </div>
+                  <br/>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Flask, Python, JavaScript, HTML, CSS, Wolfram|Alpha Short Answers API</b></h3>
+                  </div>
+                  <br/>
+                  <div style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <iframe width="100%" height="543"
+                      src="https://www.youtube.com/embed/jzuHhhL0ne8">
+                    </iframe>
+                  </div>
+                  <br/>
+              </div>
+            </section>
+          </div>
           <div class='flex-container'>
             <section class='typewriter' className='flex-container' style={{flex: 0.66}}>
               <div className='about-me-section'>
@@ -48,7 +82,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div>
-                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. Code in private repository available upon email request.</h3> 
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. <i>Code in private repository available upon email request.</i></h3> 
                     <br/>
                     <img src={sublease1} width='100%' height='auto'></img> 
                 </div>
@@ -123,26 +157,7 @@ class Projects extends Component {
               </div>
             </section>
           </div>
-          <div class='flex-container' className='flex-container' style={{flex: 1}}>
-            <section class='typewriter' className='flex-container' style={{flex: 1}}>
-              <div className='about-me-section'>
-
-              <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                    <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Project @ PennApps XXI Hackathon</h4>
-                  </div>
-                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                    <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="web" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://2020f.pennapps.com/" size="60" />
-                  </div>
-                  <br/>
-                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                      <h3 className='about-me-desc'  style={{  textAlign: 'center' }}>Coming soon... (I will be competing with students across the country at PennApps XXI from September 11-13!)</h3>
-                  </div>
-                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Coming soon...</b></h3>
-                </div>
-              </div>
-            </section>
-          </div>
+          
         </div>
         
       </div>
