@@ -59,7 +59,7 @@ class Projects extends Component {
                   </div>
                   <br/>
                   <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
-                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Flask, Python, JavaScript, HTML, CSS, Wolfram|Alpha Short Answers API</b></h3>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Flask, Python, JavaScript, HTML5, CSS, Wolfram|Alpha Short Answers API</b></h3>
                   </div>
                   <br/>
                   <div style={{justifyContent: 'center', textAlign: 'center'}}>
@@ -84,11 +84,11 @@ class Projects extends Component {
                 <div>
                     <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. <i>Code in private repository available upon email request.</i></h3> 
                     <br/>
-                    <img src={sublease1} width='100%' height='auto'></img> 
-                </div>
-                <br/>
-                <div style={{justifyContent: 'center'}}>
-                  <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
+                    <div style={{justifyContent: 'center'}}>
+                      <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
+                    </div>
+                    <br/>
+                    <img style={{marginBottom: 15}}src={sublease1} width='100%' height='auto'></img> 
                 </div>
               </div>
             </section>
@@ -106,12 +106,12 @@ class Projects extends Component {
                     <h3 className='about-me-desc' style={{  textAlign: 'center' }}>Multi-page React web application (this website!) built to showcase my background and experience as a software engineer and computer science student.</h3>
                 </div>
                 <br/>
-                <div style={{textAlign: 'center', justifyContent: 'center'}}>
-                  <img src={logo} width='50%' height='auto'></img>
-                </div>
-                <br/>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
                   <h3 className='about-me-desc' style={{  textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, SCSS, JavaScript, Vercel/GitHub Pages</b></h3>
+                </div>
+                <br/>
+                <div style={{textAlign: 'center', justifyContent: 'center'}}>
+                  <img src={logo} width='50%' height='auto'></img>
                 </div>
               </div>
               
