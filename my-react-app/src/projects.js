@@ -149,7 +149,7 @@ class Projects extends Component {
                 </div>
                 <br/>
                 <div className='flex-container' >
-                    <h3 className='about-me-desc'  style={{ textAlign: 'center' }}>Solving advanced programming and algorithm problems as quickly as possible! Repository of the problems I've solved from various competitions (Codeforces, UTPC, LeetCode Weekly Contests, Google Kick Start)</h3>
+                    <h3 className='about-me-desc'  style={{ textAlign: 'center' }}>Solving advanced programming and algorithm problems as quickly as possible! Repository contains all of the problems I've solved from various competitions (Codeforces, UTPC, LeetCode Weekly Contests, Google Kick Start).</h3>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
                   <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: C++, Java, Python</b></h3>

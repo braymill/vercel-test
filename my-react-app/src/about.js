@@ -59,7 +59,7 @@ class About extends Component {
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>coding: </span><span style={{color: '#044A85'}}>[Java<span style={{color: '#000'}}>,</span> C++<span style={{color: '#000'}}>,</span> C<span style={{color: '#000'}}>,</span> Python<span style={{color: '#000'}}>,</span> JavaScript<span style={{color: '#000'}}>,</span> HTML5<span style={{color: '#000'}}>,</span> CSS/SCSS<span style={{color: '#000'}}>,</span> x86]</span>,
                         </h2>
                         <h2 className='about-me-code'>
-                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React.js<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
+                            &nbsp;&nbsp;<span style={{color: '#225ebe'}}>technologies: </span><span style={{color: '#044A85'}}>[React.js<span style={{color: '#000'}}>,</span> Flask<span style={{color: '#000'}}>,</span> Git<span style={{color: '#000'}}>,</span> Vercel]</span>,
                         </h2>
                         <h2 className='about-me-code'>
                             &nbsp;&nbsp;<span style={{color: '#225ebe'}}>organizations: </span><span style={{color: '#044A85'}}>[Texas Product Engineering Organization<span style={{color: '#000'}}>,</span> Texas Undergraduate Investment Team<span style={{color: '#000'}}>,</span> Natural Sciences Council]</span>,
