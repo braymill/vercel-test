@@ -43,7 +43,7 @@ class Projects extends Component {
 
                 <div style={{justifyContent: 'center', textAlign: 'center'}}>
                     <h4 style={{ marginBottom: 10, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>MAPIFY</h4>
-                    <h3 style={{textAlign: 'center'}}><i>Created during the PennApps XXI 2020 Hackathon!</i></h3>
+                    <h3 style={{textAlign: 'center'}}><i><b>Winner: Best Use of Wolfram Technology at PennApps XXI</b></i></h3>
                   </div>
                   <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                     <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
