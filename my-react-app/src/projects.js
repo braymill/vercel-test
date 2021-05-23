@@ -7,6 +7,8 @@ import ImageGallery from 'react-image-gallery';
 import sublease1 from "./images/sublease1.png";
 import sportune from "./images/sportune.png";
 import ModalImage from "react-modal-image";
+import sgconnect from "./images/sgconnect.png";
+import codeforgood from "./images/codeforgood.png";
 
 class Projects extends Component {
   render() {
@@ -37,6 +39,38 @@ class Projects extends Component {
                           />
           </h4>
           <br/>
+          <div class='flex-container' className='flex-container' style={{flex: 1}}>
+            <section class='typewriter' className='flex-container' style={{flex: 1}}>
+              <div className='about-me-section'>
+
+                <div style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <h4 style={{ marginBottom: 10, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>SGConnect</h4>
+                    <h3 style={{textAlign: 'center'}}><i><b>Built for UT Student Government</b></i></h3>
+                  </div>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="mailto:brayden.miller@utexas.edu" size="70" />
+                    </span>                    
+                    <span style={{marginLeft: 15, marginRight: 15, marginTop: 7.5}}>
+                        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="web" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="https://utsgconnect.com/posts" size="70" />
+                    </span>
+                  </div>
+                  <br/>
+                  <div>
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>SGConnect is a forum for students to ask questions and send feedback to UT Student Government representatives. UT Student Government utilizes SGConnect as a way to engage with the student body of over 40,000 Longhorns, receive feedback on initiatives, and ultimately better represent students. <i>Code in private repository available upon email request.</i></h3> 
+                  </div>
+                  <br/>
+                  <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: React.js, JavaScript, Spring Boot, AWS, Postman</b></h3>
+                  </div>
+                  <br/>
+                  <div style={{justifyContent: 'center', textAlign: 'center'}}>
+                    <img src={sgconnect} width='100%' height='auto'></img>
+                  </div>
+                  <br/>
+              </div>
+            </section>
+          </div>
           <div class='flex-container' className='flex-container' style={{flex: 1}}>
             <section class='typewriter' className='flex-container' style={{flex: 1}}>
               <div className='about-me-section'>
@@ -75,20 +109,20 @@ class Projects extends Component {
             <section class='typewriter' className='flex-container' style={{flex: 0.66}}>
               <div className='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
-                  <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>SubleaseUT</h4>
+                  <h4 style={{ marginBottom: 18, fontSize: 40, fontWeight: 700, justifyContent: 'center', textAlign: 'center' }}>Girls Connect</h4>
                 </div>
                 <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
                   <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(4,74,133,1)" iconSize="5" roundness="20%" url="mailto:brayden.miller@utexas.edu" size="60" />
                 </div>
                 <br/>
                 <div>
-                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Web platform transforming student housing by creating a powerful marketplace for students to search and obtain apartment and parking subleases. <i>Code in private repository available upon email request.</i></h3> 
+                    <h3 className='about-me-desc' style={{ textAlign: 'center' }}>Multi-page React application built for a Chicago non-profit, Girls in the Game, to incentivize physical activity during the COVID-19 pandemic. Built for the JPMorgan Chase Code for Good Hackathon in 2020. <i>Code in private repository available upon email request.</i></h3> 
                     <br/>
                     <div style={{justifyContent: 'center'}}>
-                      <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, JavaScript, Lambda, DynamoDB</b></h3>
+                      <h3 className='about-me-desc'  style={{ textAlign: 'center' }}><b>Technologies: React.js, HTML5, CSS, Firestore</b></h3>
                     </div>
                     <br/>
-                    <img style={{marginBottom: 15}}src={sublease1} width='100%' height='auto'></img> 
+                    <img style={{marginBottom: 15}}src={codeforgood} width='100%' height='auto'></img> 
                 </div>
               </div>
             </section>
@@ -121,7 +155,7 @@ class Projects extends Component {
           </div>
           <div></div>
           <div class='flex-container' className='flex-container' style={{flex: 1}}>
-            <section class='typewriter' className='flex-container' style={{flex: 1}}>
+            {/* <section class='typewriter' className='flex-container' style={{flex: 1}}>
               <div className='about-me-section'>
 
               <div className='flex-container' style={{justifyContent: 'center', textAlign: 'center'}}>
@@ -138,7 +172,7 @@ class Projects extends Component {
                     <h3 className='about-me-desc'  style={{  textAlign: 'center' }}><b>Technologies: Python (pandas, numpy, scikit-learn)</b></h3>
                 </div>
               </div>
-            </section>
+            </section> */}
             <section class='content' className='flex-container' style={{flex: 1}}>
               <div class='about-me-section'>
                 <div className='flex-container' style={{justifyContent: 'center'}}>
